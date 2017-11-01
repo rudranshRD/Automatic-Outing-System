@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Login</title>
+    <link rel="stylesheet" type="text/css" href="for.css">
+
+</head>
+
+
+<body>
+<div class="navbar">
+    <ul>
+  <li style="float: left; align-items: center;";><img src="vit_logo.png" height="45px" width="150px"></li>
+  <li><a href="home2.html">Home</a></li>
+  <li><a href="new_and_login.html">Login</a></li>
+  <li><a href="form.html">New Request</a></li>
+  <li><a href="about_manzil.html">About</a></li>
+</ul>
+    </div>
+<div class="container" align="center">  
+  <form id="contact" action="process.php" method="post">
+    <h3><b>Hostel Outing</b></h3>
+    <h4>VIT University Hostel</h4>
+    <table align="center" style="border: medium none !important;
+  margin: 0 0 10px;
+  min-width: 100%;
+  padding: 0;
+  width: 100%;">
+    
+   
+
+    <tr >
+        <td colspan="2"><input name="username" placeholder="Username" type="text" required tabindex="2" style="width: 100%;"></td>
+    </tr>
+    <tr>
+        <td colspan="2"><input name="password" placeholder="Password" type="password" name="password" required tabindex="3" style="width: 100%;"> </td>
+    </tr>
+    <tr>
+    <td>
+      <input type="radio" name="profile" value="warden" checked> Warden<br>
+  <input type="radio" name="profile" value="guard"> Guard<br>
+    </td>
+    </tr>
+    
+   
+    <tr>
+        <td colspan="2"><button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Login</button></td>
+    </tr>
+    </table>
+    <!--p class="copyright">Designed by <a href="https://colorlib.com" target="_blank" title="Manzil M">E L I X E R</a></p-->
+  </form>
+</div>
+</body>
+</html>

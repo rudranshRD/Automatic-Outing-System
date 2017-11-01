@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Outing form</title>
+    <link rel="stylesheet" type="text/css" href="for.css">
+</head>
+
+
+<body>
+<ul>
+  <li style="float: left; align-items: center";><img src="vit_logo.png" height="45px" width="150px"></li>
+    <li><a href="home2.html">Home</a></li>
+  <li><a href="new_and_login.html">Login</a></li>
+  <li><a href="form.html">New Request</a></li>
+  <li><a href="about_manzil.html">About</a></li>
+</ul>
+<div class="container" align="center">  
+  <form id="contact" action="form.php" method="post">
+    <h3><b>Outing Request Form</b></h3>
+    <h4>VIT University Hostel</h4>
+    <table align="center" style="width: 100%;">
+    <tr >
+	      <td colspan="2"><input name="reg" placeholder="Reg No." type="text" tabindex="1" required autofocus></td>
+    </tr>
+    <tr >
+	      <td colspan="2"><input name="place" placeholder="Visiting place" type="text" tabindex="2" required autofocus></td>
+    </tr>
+    <tr>
+	      <td>Leave date</td>
+	      <td><input name="outdate" placeholder="Date of leaving" type="date" tabindex="3" required></td>
+    </tr>
+    <tr>
+        <td>Leave Time</td>
+        <td><input name="outtime" placeholder="Time of leaving" type="time" tabindex="4" required></td>
+    </tr>
+    <tr>
+        <td>Return date</td>
+        <td><input name="indate" placeholder="Date of returning" type="date" tabindex="5" required></td>
+    </tr>
+    <tr>
+        <td>Return time</td>
+        <td><input name="intime" placeholder="Time of returning" type="time" tabindex="6" required></td>
+    </tr>
+    <tr >
+	      <td colspan="2"><input name="phone" placeholder="Your Phone Number" type="text" required tabindex="7"></td>
+    </tr>
+    <tr > 
+	      <td>Mess</td>
+	      <td>
+	      	<select name="mess" tabindex="8" style="width: 100%; border: 1px solid #ccc;padding: 8px">
+	      		<option value="nv">North-Veg</option>
+	      		<option value="nnv">North-NonVeg</option>
+	      		<option value="sv">South-Veg</option>
+	      		<option value="snv">South-NonVeg</option>
+	      		<option value="spl">Special</option>
+	      	</select>
+	      </td>
+    </tr>
+    <tr>
+	      <td colspan="2"><input name="purpose" placeholder="Purpose" type="text" tabindex="9" required></td>
+	</tr>
+    <tr>
+	      <td colspan="2"><button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button></td>
+    </tr>
+    </table>
+    <!--p class="copyright">Designed by <a href="https://colorlib.com" target="_blank" title="Manzil M">E L I X E R</a></p-->
+  </form>
+</div>
+</body>
+</html>
